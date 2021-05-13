@@ -54,6 +54,8 @@ class ViewController: UIViewController, UITableViewDataSource {
         
         present(alert, animated: true)
     }
+    
+//    var editingStyle = .delete{ items.remove(at: indexPath.row), tableView.deleteRows(at: [indexPath], with: .fade) .table.reloadData()  UserDefaults.standard.setValue(items, forKey: "items") }
 
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
